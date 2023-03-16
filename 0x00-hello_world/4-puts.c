@@ -1,10 +1,10 @@
 #include <stdio.h>
-/**
- * main - making use of the put function to create a prog that prints out a given line of writing
- * return:(0) 
+/*
+ * main - program that uses the put function to display message specified
+ * return: 0 (success)
  */
 int main(void)
 {
-puts("\Programming is like building a multilingual puzzle);
+puts ("\"Programming is like building a multilingual puzzle");
 return (0);
 }
