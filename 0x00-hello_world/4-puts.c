@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main: A program that uses the puts function to display message specified
- * return: 0 (success)
+ * main - Starting point for the program
+ * Description: the program uses puts function to output specified line
+ * return: 0 (When test is successful)
  */
 int main(void)
 {
