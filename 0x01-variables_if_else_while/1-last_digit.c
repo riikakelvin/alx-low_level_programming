@@ -6,7 +6,7 @@
 
 /* main - Start of the program*/
 /*Description: program that prints if numbers are positive negative values*/
-/* Return: (0) is always a success*/
+/* Return: is always a success*/
 
 
 int main(void)
