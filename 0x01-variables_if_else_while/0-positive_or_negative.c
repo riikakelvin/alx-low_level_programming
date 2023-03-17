@@ -20,6 +20,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{printf("%d is 0", n);
+	}
 	else
 	{printf("%d is negative", n);
 	}
