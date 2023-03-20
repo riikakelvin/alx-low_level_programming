@@ -4,12 +4,17 @@
  * Return: 0 (Successful test)
  */
 int main(void)
-{	
-	printf("Size of a char: %i byte(s)\n", (sizeof(char));
-	printf("Size of an int: %i byte(s)\n", (sizeof(int));
-	printf("Size of a long int: %i byte(s)\n", (sizeof(long int));
-	printf("Size of a long long int: %i byte(s)\n", (sizeof(long long int));
-	printf("Size of a float: %i byte(s)\n", (sizeof(float));
+	char k;
+	int e;
+	long int l;
+	long long int v;
+	float i;	
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(k));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(e));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(l));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(v));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(i));
+	
 	return (0);
 }
 
