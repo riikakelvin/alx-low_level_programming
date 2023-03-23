@@ -7,9 +7,11 @@
  */
 void print_numbers(void)
 {	int k;
-	for (k = 48; k <= 58; k++)
+
+	for (k = 0; k <= 9; k++)
 	{
-	_putchar("%c", k);
+	putchar(k + 48);
 	}
+	putchar('\n')
 	return (0);
 }
