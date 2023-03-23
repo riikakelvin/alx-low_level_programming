@@ -1,16 +1,16 @@
 #include "main.h"
 #include <stdio.h>
-/** 
+/**
  * print_numbers - prints numbers between 0 and 9
- * @k: number under consideration
+ * @v: number under consideration
  * Return: 0 when succesful
  */
 void print_numbers(void)
-{	int k;
+{	int v;
 
-	for (k = 0; k <= 9; k++)
+	for (v = 0; v <= 9; v++)
 	{
-	_putchar(k + '0');
+	_putchar(v + '0');
 	}
 	_putchar('\n');
 }
