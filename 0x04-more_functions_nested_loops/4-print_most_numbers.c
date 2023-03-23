@@ -9,11 +9,13 @@ void print_most_numbers(void)
 	for (; k <=9; k++)
 	{
 	if (k == 4 || k == 2)
+	{
 	continue;
 	}
 	else
 	{
 	_putchar(k + '0');
+	}
 	}
 	_putchar("\n");
 }
