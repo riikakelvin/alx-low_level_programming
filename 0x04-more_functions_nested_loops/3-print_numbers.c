@@ -10,8 +10,7 @@ void print_numbers(void)
 
 	for (k = 0; k <= 9; k++)
 	{
-	putchar(k + 48);
+	_putchar(k + '0');
 	}
-	putchar('\n')
-	return (0);
+	_putchar('\n');
 }
