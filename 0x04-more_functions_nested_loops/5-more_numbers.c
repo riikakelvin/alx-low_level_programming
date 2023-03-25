@@ -1,22 +1,21 @@
 #include "main.h"
 /**
  * more_numbers - prints the numbers 0 to 14, 10 folds
- * @v: the numbers under consideration
- * @k: the number of times of repeat printing
+ * @a: the numbers under consideration
+ * @b: the number of times of repeat printing
  * Return: the numbers between 0 and 14 ten times
  */
 void more_numbers(void)
-{	int k, v;
-	
-	for(k = 0; k < 10; k++)
+{	int a, b;
+	for (a = 0; a < 10; a++)
 	{
-	for(v = 0; v <= 14; v++)
+	for (b = 0; b <= 14; b++)
 	{
-	if(v > 0)
+	if (b > 9)
 	{
-	_putchar((v/ 10) + '0');
+	_putchar((b / 10) + '0');
 	{
-	_putchar((v% 10) + '0');
+	_putchar((b % 10) + '0');
 	{
 	_putchar('\n');
 	}
