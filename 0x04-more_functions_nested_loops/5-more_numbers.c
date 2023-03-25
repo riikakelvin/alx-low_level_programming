@@ -6,18 +6,17 @@
  * Return: the numbers between 0 and 14 ten times
  */
 void more_numbers(void)
-{	int v;
-	int k;
-
-	for(v = 0; v <= 14; v++)
-	{
+{	int k, v;
+	
 	for(k = 0; k < 10; k++)
 	{
-	if(k > 9)
+	for(v = 0; v <= 14; v++)
 	{
-	_putchar((k/ 10) + '0');
+	if(v > 0)
 	{
-	_putchar((k% 10) + '0');
+	_putchar((v/ 10) + '0');
+	{
+	_putchar((v% 10) + '0');
 	{
 	_putchar('\n');
 	}
