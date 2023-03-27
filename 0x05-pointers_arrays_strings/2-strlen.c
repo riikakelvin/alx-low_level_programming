@@ -2,13 +2,13 @@
 /**
  * _strlen - display lengh of string
  * @s: string under consideration
- * Return: the lengh of string
+ * Return: lengh
  */
 int _strlen(char *s)
 {	int lengh = 0;
-	while (*s != '0')
+	while (*s != \'0')
 	{	lengh++;
 		s++;
 	}
-	Return (lengh);
+	Return(lengh);
 }
