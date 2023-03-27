@@ -5,10 +5,10 @@
  * Return: lengh
  */
 int _strlen(char *s)
-{	int longi = 0;
-	while (*s != \'0')
-	{	longi++;
+{	int lengh = 0;
+	while (*s != '\0')
+	{	lengh++;
 		s++;
 	}
-	Return(longi);
+	Return(lengh);
 }
