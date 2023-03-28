@@ -2,7 +2,8 @@
 /**
  * *_strcpy - copies the string pointed to by src
  *@dest: destination array
- *@src: array's spurce
+ *@src: array's source
+ *Return: string copy
  */
 char *_strcpy(char *dest, char *src)
 {	int k;
