@@ -5,7 +5,7 @@
  *@str: string to be encoded
  *Return: string
  */
-char *leet(char *)
+char *leet(char *str)
 {	int k;
 	int e;
 
