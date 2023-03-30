@@ -11,10 +11,8 @@ int main(void)
 
 	e[2] = 1024;
 	v = &k;
-
 	*(v + s) = 98;
-	{
-		printf("e[2] = %d\n", e[2]);
-	}
+
+	printf("e[2] = %d\n", e[2]);
 	return (0);
 }
