@@ -1,18 +1,20 @@
 #include <stdio.h>
 /**
- * main -entry point, magic
- *
+ * main - entry point
  * Return: 0
  */
 int main(void)
-{	int k;
-	int e[s];
-	int *v;
+{
+	int n;
+	int a[5];
+	int *p;
 
-	e[2] = 1024;
-	v = &k;
-	*(v + s) = 98;
+	a[2] = 1024;
+	p = &n;
 
-	printf("e[2] = %d\n", e[2]);
+	*(p + 5) = 98;
+	{
+		printf("a[2] = %d\n", a[2]);
+	}
 	return (0);
 }
