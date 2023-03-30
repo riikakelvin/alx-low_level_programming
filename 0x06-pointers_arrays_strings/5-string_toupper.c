@@ -5,7 +5,8 @@
  * Return: string
  */
 char *string_toupper(char *str)
-{	int k;
+{
+	int k;
 
 	for (k = 0; str[k] != '0'; k++)
 	{
