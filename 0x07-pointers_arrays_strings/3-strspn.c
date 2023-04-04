@@ -6,22 +6,22 @@
  * Return: 0
  */
 unsigned int _strspn(char *s, char *accept)
-{	unsigned int n, k, value_init, value_cur;
+{	unsigned int n = 0;
+	int k;
 
-	value_init = 0;
-
-	for (k = 0; s[k] != '\0'; k++)
+	while (*s)
 	{
-		value_cur = 0;
-		
-		for (n = 0; accept[n] != '\0'; n++)
+		for (k = 0; accept[k]; k++)
 		{
-			if (accept[n] == s[k])
+			if (*s == accept[k])
 			{
-				value_init++;
-				value_cur = 1;
+				n++;
+				break;
 			}
+			else if (accept[k + 1] == '\0')
+				return (n);
 		}
+		s++;
 	}
 	return (0);
 }
