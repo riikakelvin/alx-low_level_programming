@@ -6,19 +6,24 @@
  * Return: 0
  */
 char *_strstr(char *haystack, char *needle)
-{
-	for (; *haystack != '\0'; haystack++)
-	
-		char *k = haystack;
-		char *e = needle;
+{	int l;
+
+	if (*needle == 0)
+		return (haystack);
+	while (*haystack)
 	{
-		while (*k == *e && *e != '\0')
+		l = 0;
+
+		if (haystack[l] == needle[l])
 		{
-			*k++;
-			*e++;
-		}
-		if (*e == '\0')
-			return (haystack);
+			do {
+				if (needle[l - 1] == '\0')
+					return (haystack);
+				l++;
+			}
+		while (haystack[l] == needle[l]);
+	}
+		haystack++;
 	}
 	return (0);
 }
