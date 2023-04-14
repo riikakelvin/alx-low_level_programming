@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdlib.h>
 /**
  * free_grid - displays 2D grid created
