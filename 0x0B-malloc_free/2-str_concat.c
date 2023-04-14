@@ -44,6 +44,5 @@ char *str_concat(char *s1, char *s2)
 	{
 		str[e] = s1[e];
 	}
-	str[size_occupied] != '\0';
 	return (str);
 }
