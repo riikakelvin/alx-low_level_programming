@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * factorial - returns the factorial of a given number
- * num: number under consuderation
+ * @n: number under consuderation
  * Return: an integer value
  */
 int factorial(int n)
