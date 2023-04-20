@@ -1,1 +1,1 @@
-README file for 0x0F-function_pointers
+README file for 0x0F-function_pointers, using prototype fucntion void array_iterator(int *array, size_t size, void (*action)(int)), with array, where size is the size of the array, and actio is the pointer to the needed fucntion for the program to work well
