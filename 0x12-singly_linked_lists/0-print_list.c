@@ -3,14 +3,13 @@
 /**
  * print_list - prints all the elements of a linked list, list_t list
  * @h: contains a singly linked list
- *
- * Return: elements in a list (number of)
+ * Return: nodes printed (number of)
  */
 size_t print_list(const list_t *h)
 {
-	size_t k;
+	size_t s;
 
-	k = 0;
+	s = 0;
 
 	while (h != NULL)
 	{
@@ -22,8 +21,8 @@ size_t print_list(const list_t *h)
 		{
 			printf("[%d] %s\n", h->len, h->str);
 			h = h->next;
-			k++;
+			s++;
 		}
 	}
-	return (k);
+	return (s);
 }
