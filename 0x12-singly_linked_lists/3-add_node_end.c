@@ -13,9 +13,11 @@ list_t *temp = *head;
 unsigned int len = 0;
 
 while (str[len])
-len++;
-
+{
+	len++;
+}
 new_node = malloc(sizeof(list_t));
+
 if (!new_node)
 return (NULL);
 
@@ -29,8 +31,10 @@ if (*head == NULL)
 return (new_node);
 }
 while (temp->next)
-temp = temp->next;
-temp->next = new_node;
-return (new);
+{
+	temp = temp->next;
+	temp->next = new_node;
+}
+return (new_node);
 }
 
